@@ -26,7 +26,11 @@ this.students = new Student[length];
 public Student[] getStudents() {
 // Add your implementation here
 //Correct
+if(students.length!=0)
 return students;
+else
+return null;
+
 }
 @Override
 public void setStudents(Student[] students) {
